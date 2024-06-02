@@ -62,8 +62,8 @@
         <!-- Formulário -->
         <form method="post">
             <label>Universo:</label><br>
-            <input type="radio" name="universo" value="Marvel">Marvel
-            <input type="radio" name="universo" value="DC">DC<br><br>
+            <p>Marvel</p><input type="radio" name="universo" value="Marvel"><br>
+            <p>DC</p><input type="radio" name="universo" value="DC"><br><br>
 
             <label>Herói:</label><br>
             <input type="text" name="heroi"><br><br>
@@ -73,7 +73,7 @@
 
             <button type="submit">Gerar imagens</button> <!-- Botão utilizado para gerar as imagens -->
 
-            <!-- window.location.hrefserve para definir o url da página atual, quando igualada a 'index.php', volta para a página inicial, onde nenhum valor foi colocado ainda, resetando-a -->
+            <!-- window.location.href serve para definir o url da página atual, quando igualada a 'index.php', volta para a página inicial, onde nenhum valor foi colocado ainda, resetando-a -->
             <button type="reset" onclick="window.location.href='index.php'">Resetar</button>
         </form>
 

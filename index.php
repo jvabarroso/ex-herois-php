@@ -68,7 +68,7 @@
                 echo '<div class="images">';
                 $imgSrc = $heroesArray[$heroi];
                 for ($i = 0; $i < $qntImgs; $i++) {
-                    echo "<img src='$imgSrc' alt='$heroi'>";
+                    echo "<img src='$imgSrc'>";
                 }
                 echo '</div>';
             } else {
